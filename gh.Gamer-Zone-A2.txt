@@ -1,0 +1,13 @@
+echo "# Gamer-Zone-A2" >> README.md
+git init
+git add .
+git commit -m "Gamer-Zone-A2"
+git branch -M main
+git remote add origin https://github.com/NFRIDOY/Gamer-Zone-A2.git
+git push -u origin main
+
+-------------------------
+
+git remote add origin https://github.com/NFRIDOY/Gamer-Zone-A2.git
+git branch -M main
+git push -u origin main

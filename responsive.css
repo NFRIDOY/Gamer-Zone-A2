@@ -1,0 +1,10 @@
+@media screen and (max-width: 426px) {
+    body {
+        background-color: #ff0;
+    }
+}
+@media screen and (min-width: 426px) {
+    body {
+        /* background-color: #f0f; */
+    }
+}
