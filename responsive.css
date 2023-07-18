@@ -2,6 +2,21 @@
     body {
         background-color: #ff0;
     }
+    .header {
+        padding: 0% 0%;
+    }
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 @media screen and (min-width: 426px) {
     body {
