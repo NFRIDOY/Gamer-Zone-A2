@@ -10,7 +10,7 @@ body {
 .primary-color {
     color: #ff42a5;
 }
-button a {
+button a,a {
     text-decoration: none;
     color: black;
 }
