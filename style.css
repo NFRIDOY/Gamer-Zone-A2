@@ -70,8 +70,8 @@ li {
 .menu {
     list-style: none;
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
     width: 30%;
 }
@@ -79,6 +79,7 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    /* margin-left: 15px; */
 }
 
 .banner-container {
@@ -86,6 +87,7 @@ li {
     justify-content: space-between;
     align-items: center;
 
+    background-color: #FBFBFB;
     background-image: url("./images/Group\ 14.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -127,6 +129,12 @@ li {
 }
 
 /* We-are-gamer-container */
-.We-are-gamer-container {
-
+.gamer-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamer-text {
+    text-align: right;
 }
