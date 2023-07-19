@@ -18,6 +18,9 @@ body {
     padding: 15px 30px;
     font-size: 1rem;
 }
+.btn-margin {
+    margin: 25px 0px;
+}
 .btn-secondary {
     background-color: #ff42a5;
     color: white;
