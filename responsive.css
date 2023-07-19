@@ -11,7 +11,7 @@
         justify-content: center;
         align-items: center;
     }
-    .menu{
+    .menu {
         width: 100%;
         flex-direction: column;
         justify-content: center;
@@ -40,11 +40,30 @@
     }
     .gamer-text {
         text-align: center;
-
+    }
+    .vdo-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vdo-card {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .funny-vdo-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-primary {
+        text-align: center;
+    }
+    .vdo-card p {
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
-@media screen and (min-width: 426px) and  (max-width: 769px)  {
-    *{
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    * {
         margin: 0px;
     }
     body {
@@ -79,7 +98,7 @@
     .banner-text-container {
         margin-top: 40px;
     }
-    .gamer-container{
+    .gamer-container {
         margin-top: 100px;
     }
 }
