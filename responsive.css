@@ -99,9 +99,21 @@
         bottom: -50px;
         left: 0px;
     }
-    .links-container{
-        grid-template-columns: repeat(1, 600px);
+    .link-img{
+        width: 100px;
     }
+    .link-img img {
+        width: 50%;
+    }
+    .link-img h3 {
+        font-size: small;
+    }
+    .links-container{
+        /* grid-template-columns: repeat(1, 600px); */
+        grid-template-columns: repeat(3, 100px);
+        column-gap: 15px;
+    }
+
     .navigation {
         /* grid-template-columns: repeat(1, 1fr); */
         display: flex;
