@@ -35,6 +35,13 @@
     main {
         margin-top: 500px;
     }
+    .gamer-container {
+        flex-direction: column;
+    }
+    .gamer-text {
+        text-align: center;
+
+    }
 }
 @media screen and (min-width: 426px) and  (max-width: 769px)  {
     *{
@@ -71,5 +78,8 @@
     }
     .banner-text-container {
         margin-top: 40px;
+    }
+    .gamer-container{
+        margin-top: 100px;
     }
 }
