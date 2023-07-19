@@ -61,6 +61,16 @@
         margin-bottom: 20px;
         text-align: center;
     }
+    .play-instantly-container {
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+    }
+    .play-instantly-img-container {
+        position: relative;
+        /* height: 100vh; */
+        margin-top: 30px;
+    }
 }
 @media screen and (min-width: 426px) and (max-width: 769px) {
     * {

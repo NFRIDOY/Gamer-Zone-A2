@@ -3,6 +3,7 @@
 * {
     font-family: "Work Sans", sans-serif;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 body {
     /* background-color: aqua; */
@@ -200,4 +201,32 @@ li {
     filter: brightness(50%);
     /* background:  */
     /* color: red; */
+}
+.play-instantly-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2% 10%;
+}
+.play-instantly-img-container {
+    position: relative;
+    height: 100vh;
+}
+.play-instantly-img-main {
+    width: 80%;
+}
+.play-instantly-img-sub {
+    width: 30%;
+    position: absolute;
+    bottom: 20%;
+    left: -15%;
+    /* bottom: -100px;
+    left: -100px; */
+}
+.play-instantly-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: right;
 }
