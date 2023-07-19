@@ -21,6 +21,15 @@ body {
 .btn-margin {
     margin: 25px 0px;
 }
+.text-primary{
+    margin: 25px 0px;
+    font-size: 40px;
+}
+.text-subtitle {
+    color: #534C64;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
 .btn-secondary {
     background-color: #ff42a5;
     color: white;
@@ -156,4 +165,36 @@ li {
 }
 .gamer-text {
     text-align: right;
+}
+.funny-vdo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 10% ;
+}
+.vdo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    
+}
+.vdo-card {
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+.vdo-card-playBtn {
+    
+}
+.vdo-card img {
+    width: 100%;
+}
+.vdo-card:hover .vdo-card-img {
+    width: 100%;
+    border: 5px solid #ff42a5;
+    border-radius: 16px;
+    filter: brightness(50%);
+    /* background:  */
+    /* color: red; */
 }
