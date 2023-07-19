@@ -38,6 +38,10 @@ a {
 li {
     list-style: none;
 }
+.icon-size {
+    width: 18px;
+    margin: 0px 8px;
+}
 .p-p {
     /* padding: 2% 10%; */
     padding-left: 10%;
@@ -79,7 +83,7 @@ li {
     justify-content: space-between;
     /* justify-content: center; */
     align-items: center;
-    width: 30%;
+    width: 40%;
 }
 .menu li {
     font-size: 18px;
@@ -87,8 +91,17 @@ li {
     font-weight: 500;
     /* margin-left: 15px; */
 }
+.link3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-.banner-container {
+    background-color: rgba(101, 101, 101, 0.424);
+    border-radius: 8px;
+    padding: 10px 25px;
+}   
+
+.banner-container { 
     display: flex;
     justify-content: space-between;
     align-items: center;
