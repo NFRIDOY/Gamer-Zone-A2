@@ -120,6 +120,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 7px;
+    }
+    .link-footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3vh;
+    }
+    .footer{
+        /* padding: 25px 63px; */
     }
 }
 @media screen and (min-width: 426px) and (max-width: 769px) {
