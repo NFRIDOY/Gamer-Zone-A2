@@ -1,4 +1,8 @@
 @media screen and (max-width: 426px) {
+    *{
+        margin: 0px;
+        background: none;
+    }
     body {
         /* background-color: #ff0; */
     }
@@ -33,10 +37,11 @@
         margin-top: 40px;
     }
     main {
-        margin-top: 500px;
+        margin-top: 300px;
     }
     .gamer-container {
         flex-direction: column;
+        margin-top: 0px;
     }
     .gamer-text {
         text-align: center;
@@ -67,13 +72,31 @@
         /* align-items: flex-end; */
     }
     .play-instantly-img-container {
-        position: relative;
+        /* position: relative;
         left: 30px;
+        margin-top: 30px; */
         /* height: 100vh; */
-        margin-top: 30px;
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 70px;
     }
     .play-instantly-item {
         text-align: center;
+    }
+    .play-instantly-img-sub{
+        position: absolute;
+        bottom: -50px;
+        left: 0px;
+    }
+    .links-container{
+        grid-template-columns: repeat(1, 600px);
+    }
+    .navigation {
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width: 426px) and (max-width: 769px) {
