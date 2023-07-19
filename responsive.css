@@ -66,6 +66,17 @@
         margin-bottom: 20px;
         text-align: center;
     }
+    /* .playBtn {
+        visibility: hidden;
+        cursor: pointer;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    } */
+    .vdo-card:hover .playBtn {
+        visibility: hidden;
+    }
+    /* border: 3px solid red; */
     .play-instantly-container {
         flex-direction: column;
         /* justify-content: center; */
