@@ -101,17 +101,19 @@
     }
     .link-img{
         width: 100px;
+        height: 50px;
     }
     .link-img img {
         width: 50%;
     }
     .link-img h3 {
-        font-size: small;
+        font-size: 8px;
     }
     .links-container{
         /* grid-template-columns: repeat(1, 600px); */
         grid-template-columns: repeat(3, 100px);
         column-gap: 15px;
+        margin-left: 10px;
     }
 
     .navigation {
