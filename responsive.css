@@ -124,9 +124,13 @@
         left: 0px;
     }
 
+    .links-container {
+        column-gap: 0px !important;
+    }
     .link-img {
         width: 100px;
         height: 50px;
+        justify-content: center;
     }
 
     .link-img img {
@@ -207,7 +211,7 @@
     }
 
     body {
-        padding: 10px;
+        /* padding: 10px; */
         /* background-color: #0ff; */
     }
 
@@ -293,7 +297,8 @@
         /* grid-template-columns: (3, 1fr); */
         grid-template-columns: repeat(3, 1fr);
         padding: 0px 5px;
-        column-gap: 15px;
+        column-gap: 0px;
+        margin-bottom: 20px;
     }
     .link-img {
         /* width: 100px;
