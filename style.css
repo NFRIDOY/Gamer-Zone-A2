@@ -267,12 +267,13 @@ button {
     height: 300px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-rows: repeat(2, 1fr);
     
     /* gap: 10px; */
     column-gap: 20px;
     background-color: #fff9fc;
 }
+
 .link-img {
     width: 250px;
     display: flex;
