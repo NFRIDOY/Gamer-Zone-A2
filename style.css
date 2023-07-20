@@ -5,9 +5,9 @@
     margin: 0px;
     scroll-behavior: smooth;
 }
-body {
-    /* background-color: aqua; */
-}
+/* body {
+    background-color: aqua;
+} */
 .primary-color {
     color: #ff42a5;
 }
@@ -132,9 +132,9 @@ button {
     background-position: left;
     /* height: 100vh; */
 }
-.banner-item {
-    /* height: 100%; */
-}
+/* .banner-item {
+    height: 100%;
+} */
 .banner-img-container {
     width: 50%;
 
@@ -158,10 +158,8 @@ button {
 .banner-text-main {
     font-size: 95px;
     font-weight: 900;
-
-    
 }
-.banner-list{
+.banner-list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -213,10 +211,10 @@ button {
     justify-content: center;
     align-items: center;
 }
-.vdo-card-playBtn {
+/* .vdo-card-playBtn {
 }
 .vdo-card img {
-}
+} */
 .vdo-card-img {
     width: 100%;
 }
@@ -228,10 +226,10 @@ button {
     /* background:  */
     /* color: red; */
 }
-.vdo-card:hover .imgDiv{
+.vdo-card:hover .imgDiv {
     /* border: 5px solid #ff42a5; */
 }
-.vdo-card:hover .playBtn{
+.vdo-card:hover .playBtn {
     visibility: visible;
 }
 .play-instantly-container {
@@ -271,7 +269,7 @@ button {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    
+
     /* gap: 10px; */
     column-gap: 20px;
     background-color: #fff9fc;
@@ -303,7 +301,7 @@ button {
     padding: 6% 30%;
     color: white;
 }
-.footer a{
+.footer a {
     color: white;
 }
 .navigation {
@@ -337,7 +335,6 @@ button {
     /* gap: 5px; */
 
     padding: 40px 0px;
-    
 }
 .copy {
     text-align: center;
