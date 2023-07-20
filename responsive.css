@@ -43,6 +43,7 @@
 
     .banner-text-container {
         margin-top: 40px;
+        margin-bottom: 46px;
     }
 
     main {
@@ -248,6 +249,7 @@
 
     .banner-text-container {
         margin-top: 40px;
+        margin-bottom: 46px;
     }
 
     .gamer-container {
@@ -257,6 +259,17 @@
 
     .gamer-container {
         margin-top: 170px;
+    }
+    .playBtn {
+        visibility: hidden;
+    }
+    .playBtn p {
+        font-size: small;
+    }
+    .vdo-card:hover .playBtn {
+        /* visibility: hidden; */
+        top: 55px;
+        left: 38px;
     }
 
     .play-instantly-img-sub {
